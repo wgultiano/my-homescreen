@@ -1,0 +1,42 @@
+.homescreen {
+    position: relative;
+}
+
+.wallpaper {
+    height: 600px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.widget {
+    position: absolute;
+    top: 45px;
+    left: 18px;
+    height: 150px;
+    width: 118px;
+    border-radius: 20px;
+}
+
+.google-folder {
+    position: absolute;
+    top: 65px;
+    left: 170px;
+    height: 120px;
+    width: 115px;
+    background: hsl(0, 1%, 61%);
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.google-icon {
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    height: 25px;
+    width: 25px;
+    border-radius: 10px;
+}
+
+
