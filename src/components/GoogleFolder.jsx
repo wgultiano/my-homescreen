@@ -1,11 +1,13 @@
-import GoogleIcon from '../icons/google-icon.png'
+import GoogleIcon from '../icons/google-go-icon.png'
 import GmailIcon from '../icons/gmail-icon.png'
+import MapIcon from '../icons/google-map-icon.png'
 
 function GoogleFolder() {
 
     const app = [
         { name: "Google", icon: GoogleIcon, link: "https://www.google.com" },
-        { name: "Gmail", icon: GmailIcon, link: "https://www.gmail.com" }
+        { name: "Gmail", icon: GmailIcon, link: "https://www.gmail.com" },
+        { name: "Map", icon: MapIcon, link: "https://maps.google.com"}
     ]
 
     return (
