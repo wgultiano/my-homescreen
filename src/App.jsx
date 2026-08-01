@@ -1,5 +1,6 @@
 import Homescreen from "./tracks/Homescreen"
 import GoogleFolder from "./components/GoogleFolder"
+import SocialFolder from "./components/SocialFolder"
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
     <Homescreen />
     <GoogleFolder />
+    <SocialFolder />
     </>
   )
 }

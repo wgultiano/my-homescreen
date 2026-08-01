@@ -32,11 +32,72 @@
     box-sizing: border-box;
 }
 
+.google-folder a {
+    position: relative;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+}
+
+.google-folder-label {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 180px;
+    left: 212px;
+    font-size: 10px;
+    color: white;
+    text-shadow: 0px 0px 2px rgb(63, 62, 62);
+}
+
 .app-icon {
     max-height: 25px;
     width: 25px;
     border-radius: 8px;
 }
 
+.gdrive-icon {
+    margin-top: -30px;
+}
 
+.yt-music-icon {
+    margin-top: -30px;
+}
 
+.google-tv-icon {
+    margin-top: -30px;
+}
+
+/* Google icons not completed yet */
+
+.social-folder {
+    position: absolute;
+    top: 228px;
+    left: 28px;
+    bottom: 20px;
+    height: 120px;
+    width: 115px;
+    background: hsl(0, 1%, 61%);
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.social-folder a {
+    position: relative;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+}
+
+.social-folder-label {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 340px;
+    left: 70px;
+    font-size: 10px;
+    color: white;
+    text-shadow: 0px 0px 2px rgb(63, 62, 62);
+}
