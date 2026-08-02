@@ -4,6 +4,9 @@ import MapIcon from '../icons/google-map-icon.png'
 import GdriveIcon from '../icons/gdrive-icon.png'
 import YTMusicIcon from '../icons/yt-music-icon.png'
 import GoogleTVIcon from '../icons/google-tv-icon.png'
+import GoogleMeetIcon from '../icons/google-meet-icon.png'
+import GooglePhotosIcon from '../icons/google-photos-icon.png'
+import GoogleAssistantIcon from '../icons/google-assistant-icon.png'
 
 function GoogleFolder() {
     return (
@@ -18,7 +21,7 @@ function GoogleFolder() {
                 />
             </a>
 
-            <a href="https://www.gmail.com" target="_blank" rel="noreferrer">
+            <a href="https://mail.google.com" target="_blank" rel="noreferrer">
                 <img
                     className="app-icon gmail-icon"
                     src={GmailIcon}
@@ -56,7 +59,26 @@ function GoogleFolder() {
                 />
             </a>
 
-            
+            <a href="https://meet.google.com" target="_blank" rel="noreferrer">
+                <img className="app-icon google-meet-icon"
+                     src={GoogleMeetIcon}
+                     alt="Google Meet"
+                />
+            </a>
+
+            <a href="https://photos.google.com" target="_blank" rel="noreferrer">
+                <img className="app-icon google-photos-icon"
+                     src={GooglePhotosIcon}
+                     alt="Google Photos"
+                />
+            </a>
+
+            <a href="https://assistant.google.com" target="_blank" rel="noreferrer">
+                <img className="app-icon google-assistant-icon"
+                     src={GoogleAssistantIcon}
+                     alt="Google Assistant"
+                />
+            </a>
 
         </div>
 
