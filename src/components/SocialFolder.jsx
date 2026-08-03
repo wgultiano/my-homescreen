@@ -1,4 +1,5 @@
 import MessengerIcon from '../icons/messenger-icon.png'
+import YouTubeIcon from '../icons/youtube-icon.png'
 
 
 
@@ -16,12 +17,13 @@ function SocialFolder() {
                 />
             </a>
 
-            {/* <a href="https://www.youtube.com" target="_blank" rel="noreferrer">
-                <img 
-                src={YouTubeIcon} 
-                alt=""
+            <a href="https://www.youtube.com" target="_blank" rel="noreferrer">
+                <img
+                    className="app-icon youtube-icon"
+                    src={YouTubeIcon} 
+                    alt="YouTube"
                 />
-            </a> */}
+            </a>
 
         </div>
 
