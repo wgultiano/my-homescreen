@@ -60,9 +60,6 @@
     border-radius: 8px;
 }
 
-
-/* Google icons not completed yet */
-
 .social-folder {
     position: absolute;
     top: 228px;
@@ -80,6 +77,7 @@
 }
 
 .social-folder a {
+    top: -2px;
     position: relative;
     display: flex;
     width: fit-content;
@@ -95,3 +93,4 @@
     color: white;
     text-shadow: 0px 0px 2px rgb(63, 62, 62);
 }
+
