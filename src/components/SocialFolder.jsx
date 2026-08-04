@@ -1,5 +1,6 @@
 import MessengerIcon from '../icons/messenger-icon.png'
 import YouTubeIcon from '../icons/youtube-icon.png'
+import TikTokIcon from '../icons/tiktok-icon.png'
 
 
 
@@ -22,6 +23,14 @@ function SocialFolder() {
                     className="app-icon youtube-icon"
                     src={YouTubeIcon} 
                     alt="YouTube"
+                />
+            </a>
+
+            <a href="https://www.tiktok.com" target="_blank" rel="noreferrer">
+                <img
+                    className="app-icon tiktok-icon"
+                    src={TikTokIcon}
+                    alt="TikTok"
                 />
             </a>
 
