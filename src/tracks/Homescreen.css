@@ -119,3 +119,21 @@
     padding: 10px;
     box-sizing: border-box;
 }
+
+.daily-used-folder {
+    position: absolute;
+    top: 375px;
+    left: 28px;
+    height: 120px;
+    width: 115px;
+    background: hsl(0, 1%, 61%);
+    border-radius: 12px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    place-items: center;
+    gap: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
