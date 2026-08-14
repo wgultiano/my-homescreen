@@ -2,6 +2,7 @@ import MessengerIcon from '../icons/messenger-icon.png'
 import YouTubeIcon from '../icons/youtube-icon.png'
 import TikTokIcon from '../icons/tiktok-icon.png'
 import InstagramIcon from '../icons/instagram-icon.png'
+import FacebookIcon from '../icons/facebook-icon.png'
 
 
 
@@ -43,10 +44,19 @@ function SocialFolder() {
                 />
             </a>
 
-        </div>
+        <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
+            <img
+                className="app-icon facebook-icon"
+                src={FacebookIcon}
+                alt="Facebook"
+            />
+        </a>
 
-        <p className="social-folder-label">Social</p>
+        <p className="social-folder-label">Social</p>        
+        
+        </div>
         </>
+  
     )
 }
 
