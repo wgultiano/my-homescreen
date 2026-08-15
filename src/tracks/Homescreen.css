@@ -120,13 +120,32 @@
     box-sizing: border-box;
 }
 
+.tools-folder a {
+    top: -37px;
+    position: relative;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+
+}
+
+.tools-folder-label {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 115px;
+    left: 190px;
+    font-size: 10px;
+    color: white;
+    text-shadow: 0px 0px 2px rgb(63, 62, 62);
+}
+
 .daily-used-folder {
     position: absolute;
     top: 375px;
     left: 28px;
     height: 120px;
     width: 115px;
-    background: hsl(0, 1%, 61%);
+    background: rgba(39, 38, 38, 0.6);
     border-radius: 12px;
 
     display: grid;
