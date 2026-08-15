@@ -1,5 +1,6 @@
 import Calculator from '../icons/calculator-icon.png'
 import GitHubIcon from '../icons/github-icon.png'
+import ChatGPTIcon from '../icons/chatgpt-icon.png'
 
 
 
@@ -23,6 +24,15 @@ function ToolsFolder() {
                         alt="GitHub"
                     />
                 </a>
+
+                <a href="https://chatgpt.com/" target="_blank" rel="noreferrer">
+                    <img
+                        className="app-icon tools-folder-icon"
+                        src={ChatGPTIcon}
+                        alt="ChatGPT"
+                    />
+                </a>
+
             </div>
 
             <p className="tools-folder-label">Tools</p>
