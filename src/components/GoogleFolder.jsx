@@ -81,7 +81,6 @@ function GoogleFolder() {
                 </a>
 
             </div>
-
             <p className="google-folder-label">Google</p>
         </>
     )
