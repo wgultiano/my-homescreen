@@ -1,4 +1,5 @@
 import Calculator from '../icons/calculator-icon.png'
+import GitHubIcon from '../icons/github-icon.png'
 
 
 
@@ -13,8 +14,18 @@ function ToolsFolder() {
                         src={Calculator}
                         alt="Calculator"
                     />
-                </a>    
+                </a>
+
+                <a href="https://github.com/" target="_blank" rel="noreferrer">
+                    <img 
+                        className="app-icon tools-folder-icon" 
+                        src={GitHubIcon}
+                        alt="GitHub"
+                    />
+                </a>
             </div>
+
+            <p className="tools-folder-label">Tools</p>
         </>
     )
 }
