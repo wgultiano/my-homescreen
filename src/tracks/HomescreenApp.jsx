@@ -1,4 +1,5 @@
 import GcashIcon from '../icons/gcash-icon.png'
+import ShopeeIcon from '../icons/shopee-icon.png'
 
 
 
@@ -6,19 +7,27 @@ import GcashIcon from '../icons/gcash-icon.png'
 function HomescreenApp() {
     return (
         <>
-            <a href="https://gcash.com/" target="_blank" rel="noreferrer">
-                <img
-                    className="app-icon gcash-icon"
-                    src={GcashIcon}
-                    alt="Gcash"
-                />
-
+            <div>
+                <a href="https://gcash.com" target="_blank" rel="noreferrer">
+                    <img
+                        className="app-icon gcash-icon"
+                        src={GcashIcon}
+                        alt="Gcash"
+                    />
+                </a>
                 <p className="gcash-label">GCash</p>
-            </a>
+            </div>
 
-
-
-
+            <div>
+                <a href="https://shopee.ph" target="_blank" rel="noreferrer">
+                    <img
+                        className="app-icon shopee-icon"
+                        src={ShopeeIcon}
+                        alt="Shopee"
+                    />
+                </a>
+                <p className="shopee-label">Shopee</p>
+            </div>
         </>
     )
 }
