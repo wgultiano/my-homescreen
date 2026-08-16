@@ -2,6 +2,7 @@ import PhoneIcon from '../../assets/icons/phone-icon.png'
 import MessagesIcon from '../../assets/icons/messages-icon.png'
 import ChromeIcon from '../../assets/icons/chrome-icon.png'
 import ContactsIcon from '../../assets/icons/contacts-icon.png'
+import CameraIcon from '../../assets/icons/camera-icon.png'
 import './AppDock.css'
 
 
@@ -40,6 +41,14 @@ function AppDock () {
                         className="app-icon contacts-icon"
                         src={ContactsIcon}
                         alt="Contacts"
+                    />
+                </a>
+
+                <a href="">
+                    <img
+                        className="app-icon camera-icon"
+                        src={CameraIcon}
+                        alt="Camera"
                     />
                 </a>
 

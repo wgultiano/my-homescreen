@@ -28,5 +28,12 @@
     left: 66px;
     height: 40px;
     width: 40px;
-    /* border-radius: 12px; */
+}
+
+.app-icon.camera-icon {
+    position: relative;
+    top: -150px;
+    left: 78px;
+    height: 40px;
+    width: 40px;
 }
