@@ -1,0 +1,41 @@
+.daily-used-folder {
+    position: absolute;
+    top: 375px;
+    left: 28px;
+    height: 120px;
+    width: 115px;
+    background: rgba(39, 38, 38, 0.6);
+    border-radius: 12px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    place-items: center;
+    gap: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.daily-used-folder a {
+    top: -2px;
+    position: relative;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+
+}
+
+.daily-used-folder-label {
+    position: absolute;
+    top: 490px;
+    left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: white;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+}
+
+.app-icon.mihon-icon,
+.app-icon.webtoon-icon {
+    margin-bottom: 32px;
+}

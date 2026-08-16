@@ -1,12 +1,14 @@
-import GoogleIcon from '../icons/google-go-icon.png'
-import GmailIcon from '../icons/gmail-icon.png'
-import MapIcon from '../icons/google-map-icon.png'
-import GdriveIcon from '../icons/gdrive-icon.png'
-import YTMusicIcon from '../icons/yt-music-icon.png'
-import GoogleTVIcon from '../icons/google-tv-icon.png'
-import GoogleMeetIcon from '../icons/google-meet-icon.png'
-import GooglePhotosIcon from '../icons/google-photos-icon.png'
-import GoogleAssistantIcon from '../icons/google-assistant-icon.png'
+import './GoogleFolder.css'
+import GoogleIcon from '../../assets/icons/google-go-icon.png'
+import GmailIcon from '../../assets/icons/gmail-icon.png'
+import MapIcon from '../../assets/icons/google-map-icon.png'
+import GdriveIcon from '../../assets/icons/gdrive-icon.png'
+import YTMusicIcon from '../../assets/icons/yt-music-icon.png'
+import GoogleTVIcon from '../../assets/icons/google-tv-icon.png'
+import GoogleMeetIcon from '../../assets/icons/google-meet-icon.png'
+import GooglePhotosIcon from '../../assets/icons/google-photos-icon.png'
+import GoogleAssistantIcon from '../../assets/icons/google-assistant-icon.png'
+
 
 function GoogleFolder() {
     return (

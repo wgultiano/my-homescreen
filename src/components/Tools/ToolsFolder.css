@@ -1,0 +1,37 @@
+.tools-folder {
+    position: absolute;
+    top: 223px;
+    left: 170px;
+    height: 120px;
+    width: 115px;
+    background: hsl(0, 1%, 61%);
+    border-radius: 12px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    place-items: center;
+    gap: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.tools-folder a {
+    top: -37px;
+    position: relative;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+
+}
+
+.tools-folder-label {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 338px;
+    left: 212px;
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+}

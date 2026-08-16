@@ -1,9 +1,9 @@
-import Homescreen from "./tracks/Homescreen"
-import GoogleFolder from "./components/GoogleFolder"
-import SocialFolder from "./components/SocialFolder"
-import ToolsFolder from "./components/ToolsFolder"
-import DailyUsedFolder from "./components/DailyUsedFolder"
-import HomescreenApp from "./tracks/HomescreenApp"
+import Homescreen from "./Homescreen/Homescreen"
+import GoogleFolder from "./components/Google/GoogleFolder"
+import SocialFolder from "./components/Social/SocialFolder"
+import ToolsFolder from "./components/Tools/ToolsFolder"
+import DailyUsedFolder from "./components/DailyUsed/DailyUsedFolder"
+import HomescreenApp from "./components/HomescreenApp/HomescreenApp"
 
 
 function App() {

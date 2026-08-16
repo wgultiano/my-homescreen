@@ -1,8 +1,6 @@
-import GcashIcon from '../icons/gcash-icon.png'
-import ShopeeIcon from '../icons/shopee-icon.png'
-
-
-
+import GcashIcon from '../../assets/icons/gcash-icon.png'
+import ShopeeIcon from '../../assets/icons/shopee-icon.png'
+import './HomescreenApp.css'
 
 function HomescreenApp() {
     return (
@@ -28,6 +26,7 @@ function HomescreenApp() {
                 </a>
                 <p className="shopee-label">Shopee</p>
             </div>
+
         </>
     )
 }

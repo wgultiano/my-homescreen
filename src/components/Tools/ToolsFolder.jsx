@@ -1,7 +1,7 @@
-import Calculator from '../icons/calculator-icon.png'
-import GitHubIcon from '../icons/github-icon.png'
-import ChatGPTIcon from '../icons/chatgpt-icon.png'
-
+import './ToolsFolder.css'
+import Calculator from '../../assets/icons/calculator-icon.png'
+import GitHubIcon from '../../assets/icons/github-icon.png'
+import ChatGPTIcon from '../../assets/icons/chatgpt-icon.png'
 
 
 function ToolsFolder() {

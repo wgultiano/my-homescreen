@@ -1,9 +1,9 @@
-import FilesIcon from '../icons/files-icon.png'
-import MusicIcon from '../icons/music-icon.png'
-import ArcPlayerIcon from '../icons/arc-player-icon.png'
-import MihonIcon from '../icons/mihon-icon.png'
-import WebtoonIcon from '../icons/webtoon-icon.png'
-
+import './DailyUsedFolder.css'
+import FilesIcon from '../../assets/icons/files-icon.png'
+import MusicIcon from '../../assets/icons/music-icon.png'
+import ArcPlayerIcon from '../../assets/icons/arc-player-icon.png'
+import MihonIcon from '../../assets/icons/mihon-icon.png'
+import WebtoonIcon from '../../assets/icons/webtoon-icon.png'
 
 
 function DailyUsedFolder() {

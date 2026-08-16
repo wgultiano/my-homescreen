@@ -1,6 +1,6 @@
-import Wallpaper from '../assets/wallpaper.jpg'
-import Widget from '../assets/widget.jpg'
-
+import Wallpaper from '../assets/images/wallpaper.jpg'
+import Widget from '../assets/images/widget.jpg'
+import './Homescreen.css'
 
 function Homescreen() {
 

@@ -1,0 +1,32 @@
+.homescreen {
+    position: relative;
+}
+
+.wallpaper {
+    height: 600px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.widget {
+    position: absolute;
+    top: 45px;
+    left: 18px;
+    height: 150px;
+    width: 118px;
+    border-radius: 20px;
+}
+
+.app-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
