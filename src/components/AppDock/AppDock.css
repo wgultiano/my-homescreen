@@ -4,6 +4,12 @@
     left: 20px;
     height: 40px;
     width: 38px;
-    border-radius: px;
 }
 
+.app-icon.messages-icon {
+    position: relative;
+    top: -150px;
+    left: 36px;
+    height: 39px;
+    width: 37px;
+}
