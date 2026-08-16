@@ -1,7 +1,7 @@
 import PhoneIcon from '../../assets/icons/phone-icon.png'
 import MessagesIcon from '../../assets/icons/messages-icon.png'
 import ChromeIcon from '../../assets/icons/chrome-icon.png'
-// import ContactsIcon from '../../assets/icons/contacts-icon.png'
+import ContactsIcon from '../../assets/icons/contacts-icon.png'
 import './AppDock.css'
 
 
@@ -34,14 +34,14 @@ function AppDock () {
                         alt="Chrome"
                     />
                 </a>
-{/* 
+
                 <a href="">
                     <img
                         className="app-icon contacts-icon"
                         src={ContactsIcon}
                         alt="Contacts"
                     />
-                </a> */}
+                </a>
 
             </div>
         </>
