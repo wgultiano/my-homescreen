@@ -3,13 +3,21 @@
     top: -150px;
     left: 20px;
     height: 40px;
-    width: 38px;
+    width: 40px;
 }
 
 .app-icon.messages-icon {
     position: relative;
     top: -150px;
     left: 36px;
-    height: 39px;
-    width: 37px;
+    height: 40px;
+    width: 40px;
+}
+
+.app-icon.chrome-icon {
+    position: relative;
+    top: -150px;
+    left: 52px;
+    height: 40px;
+    width: 40px;
 }

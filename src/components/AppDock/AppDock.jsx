@@ -1,5 +1,7 @@
 import PhoneIcon from '../../assets/icons/phone-icon.png'
 import MessagesIcon from '../../assets/icons/messages-icon.png'
+import ChromeIcon from '../../assets/icons/chrome-icon.png'
+// import ContactsIcon from '../../assets/icons/contacts-icon.png'
 import './AppDock.css'
 
 
@@ -24,6 +26,22 @@ function AppDock () {
                     
                     />
                 </a>
+
+                <a href="https://www.google.com/chrome" target="_blank" rel="noreferrer">
+                    <img
+                        className="app-icon chrome-icon"
+                        src={ChromeIcon}
+                        alt="Chrome"
+                    />
+                </a>
+{/* 
+                <a href="">
+                    <img
+                        className="app-icon contacts-icon"
+                        src={ContactsIcon}
+                        alt="Contacts"
+                    />
+                </a> */}
 
             </div>
         </>
