@@ -9,25 +9,25 @@ function ToolsFolder() {
         <>
             <div className="tools-folder">
 
-                <a href="https://calculator.apps.chrome/" target="_blank" rel="noreferrer">
+                <a href="https://calculator.apps.chrome" target="_blank" rel="noreferrer">
                     <img
-                        className="app-icon tools-folder-icon"
+                        className="app-icon calculator-icon"
                         src={Calculator}
                         alt="Calculator"
                     />
                 </a>
 
-                <a href="https://github.com/" target="_blank" rel="noreferrer">
+                <a href="https://github.com" target="_blank" rel="noreferrer">
                     <img
-                        className="app-icon tools-folder-icon"
+                        className="app-icon github-icon"
                         src={GitHubIcon}
                         alt="GitHub"
                     />
                 </a>
 
-                <a href="https://chatgpt.com/" target="_blank" rel="noreferrer">
+                <a href="https://chatgpt.com" target="_blank" rel="noreferrer">
                     <img
-                        className="app-icon tools-folder-icon"
+                        className="app-icon chatgpt-icon"
                         src={ChatGPTIcon}
                         alt="ChatGPT"
                     />
