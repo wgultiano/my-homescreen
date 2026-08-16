@@ -2,7 +2,7 @@ import FilesIcon from '../icons/files-icon.png'
 import MusicIcon from '../icons/music-icon.png'
 import ArcPlayerIcon from '../icons/arc-player-icon.png'
 import MihonIcon from '../icons/mihon-icon.png'
-// import WebtoonIcon from '../icons/webtoon-icon.png'
+import WebtoonIcon from '../icons/webtoon-icon.png'
 
 
 
@@ -11,7 +11,7 @@ function DailyUsedFolder() {
         <>
             <div className="daily-used-folder">
 
-                <a href="https://files.google.com" target="_blank" rel="noreferrer">
+                <a href="https://files.google.com/" target="_blank" rel="noreferrer">
                     <img
                         className="app-icon files-icon"
                         src={FilesIcon}
@@ -43,13 +43,13 @@ function DailyUsedFolder() {
                     />
                 </a>
 
-                {/* <a href="https://www.webtoons.com" target="_blank" rel="noreferrer">
+                <a href="https://www.webtoons.com" target="_blank" rel="noreferrer">
                     <img
                         className="app-icon webtoon-icon"
                         src={WebtoonIcon}
                         alt="Webtoon"
                     />
-                </a> */}
+                </a>
 
             </div>
             <p className="daily-used-folder-label">Daily Used</p>

@@ -6,7 +6,6 @@
     height: 600px;
     width: 300px;
     border-radius: 20px;
-    border: 1px solid black;
 }
 
 .widget {
@@ -99,8 +98,6 @@
     text-shadow: 0 1px 3px rgba(0,0,0,0.8);
 }
 
-
-.app-icon.instagram-icon,
 .app-icon.facebook-icon {
     margin-bottom: 32px;
 }
@@ -182,6 +179,7 @@
     text-shadow: 0 1px 3px rgba(0,0,0,0.8);
 }
 
-.app-icon.mihon-icon {
+.app-icon.mihon-icon,
+.app-icon.webtoon-icon {
     margin-bottom: 32px;
 }
