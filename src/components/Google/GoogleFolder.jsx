@@ -1,4 +1,3 @@
-import './GoogleFolder.css'
 import GoogleIcon from '../../assets/icons/google-go-icon.png'
 import GmailIcon from '../../assets/icons/gmail-icon.png'
 import MapIcon from '../../assets/icons/google-map-icon.png'
@@ -8,6 +7,7 @@ import GoogleTVIcon from '../../assets/icons/google-tv-icon.png'
 import GoogleMeetIcon from '../../assets/icons/google-meet-icon.png'
 import GooglePhotosIcon from '../../assets/icons/google-photos-icon.png'
 import GoogleAssistantIcon from '../../assets/icons/google-assistant-icon.png'
+import './GoogleFolder.css'
 
 
 function GoogleFolder() {

@@ -1,8 +1,8 @@
-import './SocialFolder.css'
 import MessengerIcon from '../../assets/icons/messenger-icon.png'
 import YouTubeIcon from '../../assets/icons/youtube-icon.png'
 import TikTokIcon from '../../assets/icons/tiktok-icon.png'
 import FacebookIcon from '../../assets/icons/facebook-icon.png'
+import './SocialFolder.css'
 
 
 function SocialFolder() {
