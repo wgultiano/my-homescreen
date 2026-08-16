@@ -171,10 +171,8 @@
     position: absolute;
     top: 490px;
     left: 60px;
-    width: 115px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
-    font-weight: 500;
     color: white;
     text-shadow: 0 1px 3px rgba(0,0,0,0.8);
 }
@@ -182,4 +180,23 @@
 .app-icon.mihon-icon,
 .app-icon.webtoon-icon {
     margin-bottom: 32px;
+}
+
+.app-icon.gcash-icon {
+    position: relative;
+    top: -236px;
+    left: 162px;
+    height: 38px;
+    width: 36px;
+    border-radius: 12px;
+}
+
+.gcash-label {
+    position: absolute;
+    top: 410px;
+    left: 176px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    color: rgb(224, 211, 211);
+    text-shadow: 0 1px 3px rgba(0,0,0,0.8);
 }

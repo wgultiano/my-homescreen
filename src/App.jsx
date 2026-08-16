@@ -3,6 +3,7 @@ import GoogleFolder from "./components/GoogleFolder"
 import SocialFolder from "./components/SocialFolder"
 import ToolsFolder from "./components/ToolsFolder"
 import DailyUsedFolder from "./components/DailyUsedFolder"
+import HomescreenApp from "./tracks/HomescreenApp"
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <SocialFolder />
     <ToolsFolder />
     <DailyUsedFolder />
+    <HomescreenApp />
     </>
   )
 }
