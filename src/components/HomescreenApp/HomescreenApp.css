@@ -1,7 +1,7 @@
 .app-icon.gcash-icon {
     position: relative;
     top: -236px;
-    left: 165px;
+    left: 665px;
     height: 40px;
     width: 38px;
     border-radius: 12px;
@@ -10,7 +10,7 @@
 .gcash-label {
     position: absolute;
     top: 412px;
-    left: 180px;
+    left: 680px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 8px;
     color: rgb(224, 211, 211);
