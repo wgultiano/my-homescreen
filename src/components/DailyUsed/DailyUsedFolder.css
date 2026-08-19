@@ -1,15 +1,13 @@
 .daily-used-folder {
     position: absolute;
     top: 375px;
-    left: 528px;
+    left: 420px;
     height: 120px;
     width: 115px;
     background: rgba(39, 38, 38, 0.6);
     border-radius: 12px;
-
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
     place-items: center;
     gap: 5px;
     padding: 10px;
@@ -28,7 +26,7 @@
 .daily-used-folder-label {
     position: absolute;
     top: 490px;
-    left: 560px;
+    left: 454px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
     color: white;
