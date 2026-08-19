@@ -1,15 +1,13 @@
 .tools-folder {
     position: absolute;
     top: 223px;
-    left: 670px;
+    left: 565px;
     height: 120px;
     width: 115px;
     background: hsl(0, 1%, 61%);
     border-radius: 12px;
-
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
     place-items: center;
     gap: 5px;
     padding: 10px;
@@ -29,7 +27,7 @@
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     top: 338px;
-    left: 712px;
+    left: 610px;
     font-size: 10px;
     font-weight: 500;
     color: white;
