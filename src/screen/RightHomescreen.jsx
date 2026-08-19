@@ -1,11 +1,11 @@
 import Wallpaper from '../assets/images/wallpaper.jpg'
 import Widget from '../assets/images/widget.jpg'
-import './HomeScreen.css'
+import './RightHomeScreen.css'
 
 function HomeScreen() {
 
     return (
-        <div className="homescreen">
+        <div className="right-homescreen">
             <img className="wallpaper" src={Wallpaper} alt="Wallpaper" />
             <img className="widget" src={Widget} alt="Widget" />
         </div>

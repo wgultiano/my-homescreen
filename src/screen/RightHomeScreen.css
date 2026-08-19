@@ -1,9 +1,10 @@
-.homescreen {
-    position: relative;
+.right-homescreen {
+    position: absolute;
+    top: 8px;
     left: 500px;
 }
 
-.wallpaper {
+.right-homescreen .wallpaper {
     height: 600px;
     width: 300px;
     border-radius: 20px;
