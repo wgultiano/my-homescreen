@@ -1,8 +1,8 @@
 import Wallpaper from '../assets/images/wallpaper.jpg'
 import Widget from '../assets/images/widget.jpg'
-import './Homescreen.css'
+import './HomeScreen.css'
 
-function Homescreen() {
+function HomeScreen() {
 
     return (
         <div className="homescreen">
@@ -12,4 +12,4 @@ function Homescreen() {
     )
 }
 
-export default Homescreen
+export default HomeScreen
