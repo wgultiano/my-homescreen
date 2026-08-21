@@ -1,44 +1,33 @@
 .app-dock {
-    position: relative;
-    left: 393px;
+    position: absolute;
+    bottom: 18px;
+    left: 18px;
+    right: 18px;
+    display: flex;
+    justify-content: space-between;
 } 
 
 .app-icon.phone-icon {
-    position: relative;
-    top: -150px;
-    left: 20px;
     height: 40px;
     width: 40px;
 }
 
 .app-icon.messages-icon {
-    position: relative;
-    top: -150px;
-    left: 36px;
     height: 40px;
     width: 40px;
 }
 
 .app-icon.chrome-icon {
-    position: relative;
-    top: -150px;
-    left: 52px;
     height: 40px;
     width: 40px;
 }
 
 .app-icon.contacts-icon {
-    position: relative;
-    top: -150px;
-    left: 66px;
     height: 40px;
     width: 40px;
 }
 
 .app-icon.camera-icon {
-    position: relative;
-    top: -150px;
-    left: 78px;
     height: 40px;
     width: 40px;
 }

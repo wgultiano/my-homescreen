@@ -5,7 +5,6 @@ import SocialFolder from "./components/Social/SocialFolder"
 import ToolsFolder from "./components/Tools/ToolsFolder"
 import DailyUsedFolder from "./components/DailyUsed/DailyUsedFolder"
 import HomescreenApp from "./components/HomescreenApp/HomescreenApp"
-import AppDock from './components/AppDock/AppDock'
 
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
     <ToolsFolder />
     <DailyUsedFolder />
     <HomescreenApp />
-    <AppDock />
     </>
   )
 }
