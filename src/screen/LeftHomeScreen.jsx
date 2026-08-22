@@ -4,6 +4,7 @@ import AIGalleryIcon from '../assets/icons/ai-gallery-icon.png'
 import KeepNotesIcon from '../assets/icons/keep-notes-icon.png'
 import PalmStoreIcon from '../assets/icons/palm-store-icon.png'
 import GoogleCalendarIcon from '../assets/icons/google-calendar-icon.png'
+import SettingsIcon from '../assets/icons/settings-icon.png'
 import AppDock from '../components/AppDock/AppDock'
 import './LeftHomeScreen.css'
 
@@ -62,6 +63,15 @@ function LeftHomeScreen () {
                 <p className="google-calendar-label">Calendar</p>
             </a>
             
+            <a href="">
+                <img
+                    className="app-icon settings-icon"
+                    src={SettingsIcon}
+                    alt="Settings"
+                />
+                <p className="settings-label">Settings</p>
+            </a>
+
         </div>
 
         </>

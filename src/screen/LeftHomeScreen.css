@@ -52,3 +52,11 @@
     height: 40px;
     width: 38px;
 }
+
+.app-icon.settings-icon {
+    position: absolute;
+    top: 458px;
+    left: 108px;
+    height: 40px;
+    width: 38px;
+}
