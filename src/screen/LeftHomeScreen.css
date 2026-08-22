@@ -9,13 +9,22 @@
 .left-homescreen .wallpaper {
     height: 600px;
     width: 300px;
+    object-fit: cover;
     border-radius: 20px;
 }
 
 .app-icon.meteored-icon {
     position: absolute;
-    top: 370px;
-    left: 164px;
+    top: 372px;
+    left: 40px;
+    height: 40px;
+    width: 38px;
+}
+
+.app-icon.ai-gallery-icon {
+    position: absolute;
+    top: 372px;
+    left: 108px;
     height: 40px;
     width: 38px;
 }

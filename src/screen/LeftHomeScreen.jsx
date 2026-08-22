@@ -1,5 +1,6 @@
 import Wallpaper from '../assets/images/wallpaper.jpg'
 import MeteoredIcon from '../assets/icons/meteored-icon.png'
+import AIGalleryIcon from '../assets/icons/ai-gallery-icon.png'
 import AppDock from '../components/AppDock/AppDock'
 import './LeftHomeScreen.css'
 
@@ -22,7 +23,14 @@ function LeftHomeScreen () {
                 <p className="meteored-label">Meteored</p>
             </a>
 
-
+            <a href="">
+                <img
+                    className="app-icon ai-gallery-icon"
+                    src={AIGalleryIcon}
+                    alt="AI Gallery"
+                />
+                <p className="ai-gallery-label">AI Gallery</p>
+            </a>
 
         </div>
 
