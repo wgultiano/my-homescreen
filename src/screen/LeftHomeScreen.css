@@ -11,3 +11,11 @@
     width: 300px;
     border-radius: 20px;
 }
+
+.app-icon.meteored-icon {
+    position: absolute;
+    top: 370px;
+    left: 164px;
+    height: 40px;
+    width: 38px;
+}
