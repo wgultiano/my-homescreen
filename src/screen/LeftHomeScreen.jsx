@@ -6,6 +6,7 @@ import PalmStoreIcon from '../assets/icons/palm-store-icon.png'
 import GoogleCalendarIcon from '../assets/icons/google-calendar-icon.png'
 import SettingsIcon from '../assets/icons/settings-icon.png'
 import GooglePlayStoreIcon from '../assets/icons/google-play-store-icon.png'
+import ClockIcon from '../assets/icons/clock-icon.png'
 import AppDock from '../components/AppDock/AppDock'
 import './LeftHomeScreen.css'
 
@@ -80,6 +81,15 @@ function LeftHomeScreen () {
                     alt="Google Play Store"
                 />
                 <p className="google-play-store-label">Google Play Store</p>
+            </a>
+
+            <a href="https://digitalclock.live/" target="_blank" rel="noreferrer">
+                <img
+                    className="app-icon clock-icon"
+                    src={ClockIcon}
+                    alt="Clock"
+                />
+                <p className="clock-label">Clock</p>
             </a>
 
         </div>
