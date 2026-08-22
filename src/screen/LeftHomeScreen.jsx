@@ -3,6 +3,7 @@ import MeteoredIcon from '../assets/icons/meteored-icon.png'
 import AIGalleryIcon from '../assets/icons/ai-gallery-icon.png'
 import KeepNotesIcon from '../assets/icons/keep-notes-icon.png'
 import PalmStoreIcon from '../assets/icons/palm-store-icon.png'
+import GoogleCalendarIcon from '../assets/icons/google-calendar-icon.png'
 import AppDock from '../components/AppDock/AppDock'
 import './LeftHomeScreen.css'
 
@@ -52,6 +53,15 @@ function LeftHomeScreen () {
                 <p className="palm-store-label">Palm Store</p>
             </a>
 
+            <a href="https://calendar.google.com/" target="_blank" rel="noreferrer">
+                <img
+                    className="app-icon google-calendar-icon"
+                    src={GoogleCalendarIcon}
+                    alt="Google Calendar"
+                />
+                <p className="google-calendar-label">Calendar</p>
+            </a>
+            
         </div>
 
         </>
