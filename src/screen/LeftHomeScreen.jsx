@@ -5,6 +5,7 @@ import KeepNotesIcon from '../assets/icons/keep-notes-icon.png'
 import PalmStoreIcon from '../assets/icons/palm-store-icon.png'
 import GoogleCalendarIcon from '../assets/icons/google-calendar-icon.png'
 import SettingsIcon from '../assets/icons/settings-icon.png'
+import GooglePlayStoreIcon from '../assets/icons/google-play-store-icon.png'
 import AppDock from '../components/AppDock/AppDock'
 import './LeftHomeScreen.css'
 
@@ -70,6 +71,15 @@ function LeftHomeScreen () {
                     alt="Settings"
                 />
                 <p className="settings-label">Settings</p>
+            </a>
+
+            <a href="https://play.google.com/" target="_blank" rel="noreferrer">
+                <img
+                    className="app-icon google-play-store-icon"
+                    src={GooglePlayStoreIcon}
+                    alt="Google Play Store"
+                />
+                <p className="google-play-store-label">Google Play Store</p>
             </a>
 
         </div>
