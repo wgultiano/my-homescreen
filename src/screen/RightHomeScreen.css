@@ -26,3 +26,44 @@
     height: 25px;
     border-radius: 8px;
 }
+
+.app-icon.gcash-icon {
+    position: absolute;
+    top: 370px;
+    left: 164px;
+    height: 40px;
+    width: 38px;
+    border-radius: 12px;
+}
+
+.gcash-label {
+    position: absolute;
+    top: 410px;
+    left: 170px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    color: rgb(224, 211, 211);
+    text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+    pointer-events: none;
+}
+
+.app-icon.shopee-icon {
+    position: absolute;
+    top: 370px;
+    left: 238px;
+    height: 40px;
+    width: 38px;
+    border-radius: 12px;
+}
+
+.shopee-label {
+    position: absolute;
+    top: 410px;
+    left: 244px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    font-weight: 500;
+    color: white;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+    pointer-events: none;
+}
