@@ -1,6 +1,7 @@
 import Wallpaper from '../assets/images/wallpaper.jpg'
 import MeteoredIcon from '../assets/icons/meteored-icon.png'
 import AIGalleryIcon from '../assets/icons/ai-gallery-icon.png'
+import KeepNotesIcon from '../assets/icons/keep-notes-icon.png'
 import AppDock from '../components/AppDock/AppDock'
 import './LeftHomeScreen.css'
 
@@ -30,6 +31,15 @@ function LeftHomeScreen () {
                     alt="AI Gallery"
                 />
                 <p className="ai-gallery-label">AI Gallery</p>
+            </a>
+
+            <a href="https://keep.google.com/" target="_blank" rel="noreferrer">
+                <img 
+                    className="app-icon keep-notes-icon"
+                    src={KeepNotesIcon}
+                    alt="Keep Notes"
+                />
+                <p className="keep-notes-label">Keep Notes</p>
             </a>
 
         </div>
